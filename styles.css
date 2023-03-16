@@ -59,6 +59,11 @@ body{
     text-decoration: none;
     color: rgb(36, 62, 99);
     font-size: 14px;
+    transition: ease all .3s;
+}
+
+.nav ul li a:hover{
+    color: #6415ff;
 }
 
 .dark__navlink{
@@ -66,6 +71,10 @@ body{
     padding: 12px 32px;
     border-radius: 20px;
    
+}
+
+.dark__navlink:hover{
+    background-color: rgb(71, 3, 207);
 }
 
 .dark__navlink .purple{
@@ -87,6 +96,11 @@ body{
 }
 
 /* Main section */
+.main{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+}
 
 .main h1{
     font-size: 48px;
@@ -126,7 +140,7 @@ body{
 
 .main button{
     position: absolute;
-    bottom: 378px;
+    bottom: 354px;
     left: 406px;
     width: 10rem;
     border: none;
