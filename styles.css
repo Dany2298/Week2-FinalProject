@@ -205,3 +205,37 @@ body{
     font-weight: 500;
     line-height: 29px;
 }
+
+.services{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 2.5rem;
+}
+
+.service{
+    display: flex;
+    width: calc(100%/3);
+    padding:32px 0;
+}
+
+.image__container{
+    border: 1px solid rgb(226, 232, 240);
+    padding: 1.25rem;
+    border-radius: 9999px;
+    text-align: center;
+    margin: 0px 16px;
+
+}
+
+.service__desc h4{
+    font-size: 24px;
+    color: #243e63;
+    margin-top: 16px;
+}
+
+.service__desc p{
+    margin-top: 1rem;
+    color: #7C8BA1;
+    font-size: 16px;
+    text-align: start;
+}
