@@ -129,6 +129,7 @@ body{
     line-height: 24px;
     width: 448px;
     padding-left: 2rem;
+    position:relative;
     
    
 }
@@ -140,11 +141,12 @@ body{
 
 .main button{
     position: absolute;
-    bottom: 354px;
-    left: 406px;
+    bottom: 410px;
+    left: 390px;
     width: 10rem;
     border: none;
     font-size: 16px;
+   
 }
 
 .column{
@@ -172,3 +174,34 @@ body{
     max-width: 48rem;
 }
 
+/* Features Section */
+
+.container{
+    padding: 96px 0;
+}
+
+.features h1{
+    text-align: center;
+    color: #6415ff;
+    text-transform: uppercase;
+    font-size: 16px;
+    letter-spacing: 0.1em;
+    margin-bottom: 16px;
+}
+
+.features h2{
+    text-align: center;
+    font-size: 48px;
+    font-weight: 900;
+    letter-spacing: 0.025em;
+    color: #243e63;
+}
+
+.features p{
+    text-align: center;
+    color: #7C8BA1;
+    font-size: 18px;
+    margin-top: 16px;
+    font-weight: 500;
+    line-height: 29px;
+}
