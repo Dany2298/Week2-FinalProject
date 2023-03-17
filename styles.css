@@ -7,7 +7,7 @@
 }
 body{
     padding: 6px;
-    position: relative;
+    
 }
 .row{
     width: 100%;
@@ -188,6 +188,7 @@ body{
 
 .container{
     padding: 112px 0;
+    position: relative;
 }
 
 .features{
@@ -314,8 +315,8 @@ body{
 .blob__square{
     position: absolute;
     z-index: -10;
-    right: 60px;
-    bottom: 80px;
+    right: 54px;
+    bottom: 78px;
     width: 5rem;
     height: 5rem;
     color: #6415ff;
@@ -323,6 +324,83 @@ body{
     
 }
 
+/* Steps Section */
+
+.steps{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+.steps__img{
+    width: 50%;
+    position: left;
+    margin-right: 46px;
+ 
+}
+
+.steps__img img{
+    max-width: 100%;   
+    height: auto; 
+}
+
+.steps__list{
+    width: 50%;
+    margin-top: -66px;
+   
+}
+
+.steps__list h5{
+    color: #6415ff;
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+}
+
+.steps__list h3 {
+    margin-top: 16px;
+    font-size: 48px;
+    font-weight: 900;
+    color: #243e63;
+    letter-spacing: 0.025em;
+
+}
+.steps__list ul{
+    margin-top: 32px;
+}
+
+.steps__list li{
+    list-style-type: none;
+}
+
+.steps__main{
+    display: flex;
+}
+
+.steps__number{
+    font-size: 36px;
+    color: #cbd5e0;
+    line-height: 1;
+}
+
+.steps__description{
+    margin-left: 24px;
+}
+
+.steps__description h2{
+    font-size: 20px;
+    color: #243e63;
+    line-height: 1;
+    font-weight: 600;
+}
+
+.steps__description p{
+    margin-top: 14px;
+    font-size: 14px;
+    line-height: 2;
+    color: #718096;
+}
 
 
 
