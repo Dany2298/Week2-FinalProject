@@ -464,18 +464,17 @@ body{
     display: flex;
     align-items: center;
     margin: 32px 32px 0 0;
-    flex-direction: row;
+
     
     
 }
 
 .values__icons{
-    background-color: #9AE6B4;
-    border-radius: 9999px;
-    padding: 8px;
+ 
 }
 
-.values__icons svg{
+
+.value__title svg{
     color: rgb(39, 103, 73);
     height: 1.25rem;
      width: 1.25rem;
@@ -491,7 +490,7 @@ svg{
     color: #243e63;
 }
 
-.values__description p{
+.value__description p{
     margin-top: 16px;
     color: #718096;
     font-size: 16px;
@@ -503,4 +502,33 @@ svg{
     padding: 12px 32px;
 }
 
+.values__list{
+    display: flex;
+}
+
+.value__title{
+    display: flex;
+    align-items: center;
+}
+
+.value{
+    margin: 32px 32px 0 0;
+}
+
+.value__img--wrapper
+{
+background-color: #9AE6B4;
+    border-radius: 9999px;
+    padding: 8px;
+}
+
+.value__img--new {
+    background-color: #FEB2B2;
+    border-radius: 9999px;
+    padding: 8px;
+}
+
+.value__img--new svg{
+    color: rgb(155, 44, 44);
+}
 
