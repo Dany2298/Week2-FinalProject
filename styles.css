@@ -7,6 +7,7 @@
 }
 body{
     padding: 6px;
+    position: relative;
 }
 .row{
     width: 100%;
@@ -259,6 +260,7 @@ body{
 .quality{
     display: flex;
     justify-content: space-between;
+   
     
     
 }
@@ -268,7 +270,8 @@ body{
 }
 
 .quality__img{
-   width: 50%
+   width: 50%;
+    
 }
 
 .quality__img img{
@@ -276,6 +279,7 @@ body{
     height: auto;
     border: 1px solid rgb(226,232,240);
     border-radius: 0.25rem;
+   
 }
 
 .quality__info h3{
@@ -306,3 +310,18 @@ body{
     font-weight: 700;
     font-size: 14px;
 }
+
+.blob__square{
+    position: absolute;
+    z-index: -10;
+    right: 60px;
+    bottom: 80px;
+    width: 5rem;
+    height: 5rem;
+    color: #6415ff;
+    
+}
+
+
+
+
