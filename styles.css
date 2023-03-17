@@ -431,6 +431,7 @@ body{
 .values__info{
     width: 50%;
     padding-top: 32px;
+    
 }
 
 .values__img{
@@ -459,10 +460,11 @@ body{
     font-size: 18px;
 }
 
-.values__exras{
+.values__extras{
     display: flex;
     align-items: center;
     margin: 32px 32px 0 0;
+    flex-direction: row;
     
     
 }
@@ -500,6 +502,5 @@ svg{
     margin-top: 48px;
     padding: 12px 32px;
 }
-
 
 
