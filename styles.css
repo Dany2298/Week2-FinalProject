@@ -51,7 +51,10 @@ body{
     list-style-type: none;
     font-weight: 600;
     letter-spacing: 0.025em;
-    padding: 24px;
+     padding: 24px;  
+    /* margin:1.5rem;
+    letter-spacing: 0.025em; */
+    
 
 }
 
@@ -188,6 +191,7 @@ body{
 
 .features{
     margin-top: 40px;
+ 
 }
 
 .features h1{
@@ -248,4 +252,57 @@ body{
     color: #7C8BA1;
     font-size: 16px;
     text-align: start;
+}
+
+/* Quality Section */
+
+.quality{
+    display: flex;
+    justify-content: space-between;
+    
+    
+}
+
+.quality__info{
+    width: 50%;
+}
+
+.quality__img{
+   width: 50%
+}
+
+.quality__img img{
+    max-width: 100%;
+    height: auto;
+    border: 1px solid rgb(226,232,240);
+    border-radius: 0.25rem;
+}
+
+.quality__info h3{
+    color: #6415ff;
+    text-align: left;
+    text-transform: capitalize;
+}
+
+.quality__info h4{
+    margin-top: 1rem;
+    font-size: 48px;
+    color: #243e63;
+    font-weight: 900;
+}
+
+.quality__info p{
+    color: #7C8BA1;
+    margin-top: 1rem;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 1.625;
+}
+
+.quality__info button{
+    margin-top: 2rem;
+    padding: 0.75rem 2rem;
+    border: none;
+    font-weight: 700;
+    font-size: 14px;
 }
