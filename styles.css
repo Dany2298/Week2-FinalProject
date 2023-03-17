@@ -469,11 +469,6 @@ body{
     
 }
 
-.values__icons{
- 
-}
-
-
 .value__title svg{
     color: rgb(39, 103, 73);
     height: 1.25rem;
@@ -532,3 +527,6 @@ background-color: #9AE6B4;
     color: rgb(155, 44, 44);
 }
 
+.values__info button{
+    border: none;
+}
