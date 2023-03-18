@@ -603,6 +603,7 @@ background-color: #9AE6B4;
    flex-wrap: wrap;
    justify-content: space-between;
    width: 100%;
+   position: relative;
 }
 
 .plan{
@@ -695,8 +696,7 @@ background-color: #9AE6B4;
     flex-direction: column;
     align-items: center;
     margin-top: 24px;
-    padding-left: 4rem;
-    padding-right: 4rem;
+    padding: 0.75rem 4rem ;
     
     
 }
@@ -719,10 +719,79 @@ background-color: #9AE6B4;
     position: absolute;
     z-index: -999;
     transform: translateX(-50%) translateY(50%) scaleX(1) scaleY(1); 
-    left: 0;
+    left: -40px;
     bottom: 0;
     opacity: 0.25;
     height: 256px;
     width: 256px;
    
 }
+
+/* Second Plan Styling */
+
+.plan:nth-child(2) .card__highlight{
+    visibility: hidden;
+}
+
+.plan:nth-child(2) {
+    background: linear-gradient(135deg, rgb(76, 81, 191) 0%, rgb(102, 126, 234) 100%);
+}
+
+.plan:nth-child(2) h2,h3,h4{
+    color: #F7FAFC;
+}
+.plan:nth-child(2) h3{
+    color: #F7FAFC;
+}
+
+.plan:nth-child(2) h4 {
+    color: #F7FAFC;
+}
+.plan:nth-child(2){
+    border-radius: 8px;
+    
+}
+
+.plan:nth-child(2) .card__feature{
+    color: #F7FAFC;
+}
+
+.plan:nth-child(2) .middle__card{
+border-color: rgb(102, 126, 234);
+}
+
+.btn__mid{
+    color: #5500ff;
+    background-color: #f7fafc;
+    border-radius: 9999px;
+    font-size: 0.875rem;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    width: 100%;
+    padding: 16px 32px;
+    font-weight: 700;
+    cursor: pointer;
+    border: none;
+}
+
+/* Third plan styling */
+.plan:nth-child(3) .card__highlight{
+    background: linear-gradient(115deg, rgb(245, 101, 101) 0%, rgb(254, 178, 178) 100%);
+}
+
+.btn__bot{
+    background: linear-gradient(115deg, rgb(245, 101, 101) 0%, rgb(254, 178, 178) 100%);
+    border-radius: 9999px;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    font-size: 0.875rem;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    width: 100%;
+    border: none;
+    font-weight: 700;
+    color: #f7fafc;
+}
+
+
+
