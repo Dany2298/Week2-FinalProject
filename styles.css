@@ -16,6 +16,10 @@ body{
    
 }
 
+#navbar{
+    padding: 0 32px;
+}
+
 .nav{
     display: flex;
     justify-content: space-between;
@@ -261,8 +265,6 @@ body{
 .quality{
     display: flex;
     justify-content: space-between;
-   
-    
     
 }
 
@@ -272,7 +274,19 @@ body{
 
 .quality__img{
    width: 50%;
+   position: relative;
     
+}
+
+.blob__square {
+    position: absolute;
+    z-index: -10;
+    right: -32px;
+    bottom: -34px;
+    width: 5rem;
+    height: 5rem;
+    color: #6415ff;
+    fill: currentcolor;
 }
 
 .quality__img img{
@@ -312,17 +326,7 @@ body{
     font-size: 14px;
 }
 
-.blob__square{
-    position: absolute;
-    z-index: -10;
-    right: 54px;
-    bottom: 78px;
-    width: 5rem;
-    height: 5rem;
-    color: #6415ff;
-    fill: currentcolor;
-    
-}
+
 
 /* Steps Section */
 
