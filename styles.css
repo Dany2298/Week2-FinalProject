@@ -931,5 +931,9 @@ testimonials section */
     margin: 0px 12px;
 }
 
+.img__update img{
+    border-radius: 0;
+}
+
 
 
