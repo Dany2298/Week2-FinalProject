@@ -935,5 +935,130 @@ testimonials section */
     border-radius: 0;
 }
 
+/* 
+Footer Section */
 
+.footer__container{
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+    background-color: rgb(100, 21, 255);
+}
+.links{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: left;
+    flex-wrap: wrap;
+    margin-top: -3px;
+}
+.link{
+    display: flex;
+    flex-direction: column;
+    width:calc(100%/5);
+    /* align-items: center; */
+   
+}
 
+.link h5,
+li{
+    color: #f7fafc;
+    font-size: inherit;
+}
+
+.link ul li{
+    list-style: none;
+    margin-top: 12px;
+    font-size: 14px;
+}
+
+.slider{
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+    width: 100%;
+    border-bottom-width: 2px;
+    border: 2px solid rgba(247, 250, 252);
+    opacity: 0.05;
+}
+
+.footer__info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+}
+
+.logo__container{
+    display: flex;
+    align-items: center;
+    margin-right: 264px;
+}
+
+.logo__container img{
+    width: 2rem;
+}
+
+.logo__container h5{
+    font-size: 20px;
+    color: #f7fafc;
+    margin-left: 8px;
+}
+
+.footer__copy p{
+    color: #CBD5E0;
+    font-size: 16px;
+
+}
+
+.social__links{
+    display: flex;
+    flex-direction:row ;
+    align-items: center;
+    margin-left: 364px;
+
+}
+
+.social__links .fb{
+    margin-right: 1rem;
+    cursor: pointer;
+    border-radius: 9999px;
+    color: rgb(26, 32, 44);
+    background-color: rgb(247, 250, 252);
+    padding: 0.5rem;
+}
+
+.fb svg{
+    height: 1rem;
+    width: 1rem;
+    display: block;
+    vertical-align: middle;
+}
+
+.social__links .twitter{
+    margin-right: 1rem;
+    cursor: pointer;
+    border-radius: 9999px;
+    color: rgb(26, 32, 44);
+    background-color: rgb(247, 250, 252);
+    padding: 0.5rem;
+}
+
+.twitter svg {
+    height: 1rem;
+    width: 1rem;
+    display: block;
+}
+
+.social__links .yt {
+    margin-right: 1rem;
+    cursor: pointer;
+    border-radius: 9999px;
+    color: rgb(26, 32, 44);
+    background-color: rgb(247, 250, 252);
+    padding: 0.5rem;
+}
+
+.yt svg {
+    height: 1rem;
+    width: 1rem;
+    display: block;
+}
