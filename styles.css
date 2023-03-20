@@ -8,6 +8,7 @@
 body{
     padding: 6px;
     
+    overflow-x: hidden;
 }
 .row{
     width: 100%;
@@ -800,6 +801,7 @@ testimonials section */
     justify-content: space-between;
     
     
+    
 }
 
 .test__img{
@@ -942,6 +944,7 @@ Footer Section */
     padding-top: 6rem;
     padding-bottom: 6rem;
     background-color: rgb(100, 21, 255);
+   
     
 }
 .links{
