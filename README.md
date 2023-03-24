@@ -9,4 +9,4 @@ This is a 1:1 Clone website of https://treact.owaiskhan.me/components/landingPag
 
 Responsiveness (Small Screen Devices)
 
-![responsiveness](https://user-images.githubusercontent.com/61568687/227399277-53facb61-6827-4d39-8124-0c60454a9671.PNG)
+![responsiveness1](https://user-images.githubusercontent.com/61568687/227519509-f2c8eea7-4990-42ae-beb5-160ca8126f36.PNG)
