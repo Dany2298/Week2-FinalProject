@@ -7,8 +7,8 @@
 }
 body{
     padding: 6px;
-    
     overflow-x: hidden;
+    
 }
 
 #landing{
@@ -1087,6 +1087,9 @@ li{
     /* Small Phones, Tablets, Large SmartPhones */
 @media (max-width:857px) {
    
+    #landing{
+        overflow-x: hidden;
+    }
     .nav{
         margin-bottom: 56px;
         padding: 32px;
@@ -1502,6 +1505,8 @@ li{
             margin-top: -48px;
             margin-left: 16px;
         }
+
+        /* Footer Section */
 
           .footer__info{
             flex-direction: column;
