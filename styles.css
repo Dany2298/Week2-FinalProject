@@ -1178,6 +1178,24 @@ li{
         top: 56px;
         left: -18px;
     }
+
+    /* Services section */
+
+    .service{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .services{
+        flex-direction: column;
+    }
+
+        .service__desc{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
     
 
 }
