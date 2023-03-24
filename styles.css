@@ -1232,4 +1232,92 @@ li{
             transform: translateX(131px) translateY(228px) scaleX(1) scaleY(1);
         }
 
-    }
+        /* Quality Work Section */
+
+        .quality{
+            flex-direction: column-reverse;
+        }
+        .quality__img{
+            width: 100%;
+        }
+
+        .quality__info{
+        width: 100%;
+        margin-top: 64px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        }
+
+        .quality__info h3{
+            text-align: center;
+            font-size: 16px;
+        }
+
+        .quality__info h4{
+            font-size: 30px;
+            text-align: center;
+            width: 100%;
+        }
+        
+        .quality__info h4 br{
+            display: none;
+        }
+
+        .quality__info p{
+            text-align: center;
+            font-size: 14px;
+        }
+
+        .quality__info p br{
+            display: none;
+        }
+
+        /* Steps Section */
+        .steps{
+            flex-direction:column;
+        }
+
+        .steps__img{
+            width: 100%;
+        }
+
+        .dotted__blob{
+            width: 80px;
+            height: 80px;
+            left: 38%;
+            bottom: -30px;
+        }
+
+        .steps__list{
+            width: 100%;
+            margin-top: 64px;
+            text-align: center;
+        }
+
+        .steps__list h3{
+            font-size: 30px;
+        }
+
+        .steps__main{
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .steps__description{
+            margin: 0;
+        }
+
+                .steps__description p br{
+                    display: none;
+                }
+
+        .steps__number{
+            margin-bottom: 8px;
+        }
+
+
+        }
+    
+    
