@@ -1317,6 +1317,59 @@ li{
             margin-bottom: 8px;
         }
 
+        /* Values Section */
+        .values{
+            flex-direction: column-reverse;
+        }
+
+        .values__img{
+            width: 100%;
+        }
+
+        .values__info{
+            width: 100%;
+        }
+
+        .values__info h3{
+            text-align: center;
+            font-size: 16px;
+        }
+
+        .values__info .text__prince{
+            font-size: 30px;
+            text-align: center;
+        }
+
+        .values__info .text__prince br,
+        .values__info p br{
+            display: none;
+        }
+
+        .values__info p{
+            font-size: 14px;
+            text-align: center;
+            line-height: 1.625;
+            font-weight: 500;
+        }
+
+        .values__list{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .value{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .button__container{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        
 
         }
     
