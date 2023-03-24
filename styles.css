@@ -105,7 +105,13 @@ body{
     padding: 16px 0 ;
     border-radius: 9999px;
     font-weight: 700;
+    transition: all .3s ease-in-out;
+    cursor: pointer;
    
+}
+
+.purple__btn:hover{
+    background-color: rgb(71, 3, 207);
 }
 
 /* Main section */
@@ -1079,7 +1085,7 @@ li{
 
 
     /* Small Phones, Tablets, Large SmartPhones */
-@media (max-width:820px) {
+@media (max-width:857px) {
    
     .nav{
         margin-bottom: 56px;
