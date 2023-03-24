@@ -1080,7 +1080,7 @@ li{
 
     /* Small Phones, Tablets, Large SmartPhones */
 @media (max-width:820px) {
-
+   
     .nav{
         margin-bottom: 56px;
         padding: 32px;
@@ -1369,7 +1369,50 @@ li{
             align-items: center;
         }
 
+        .value__description p{
+            font-size: 16px;
+            line-height: 1.625;
+            
+        }
+
+        .value .value__description p br{
+            display: none;
+        }
         
+        /* Pricing Section */
+
+        .pricing__info h4{
+            font-size: 36px;
+        }
+
+        .plans{
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .plan{
+            width: 100%;
+            margin-left: 0;
+
+        }
+
+        .pricing__info p{
+            font-size: 14px;
+        }
+
+        .pricing__info p br{
+            display: none;
+        }
+
+        .bottom__card{
+            padding: 16px 32px;
+        }
+
+        .top__card h3{
+            font-size: 36px;
+        }
+
+
 
         }
     
