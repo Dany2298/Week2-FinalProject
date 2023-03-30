@@ -1671,7 +1671,64 @@ li{
     transform: translateX(158px) translateY(186px) scaleX(1) scaleY(1);
     }
 
-    }
+/* Quality Work Section */
+
+.quality__info{
+    margin-right: 4rem;
+}
+.quality__info h3{
+    font-size: 16px;
+    letter-spacing: 0.1em;
+}
+
+.quality__info h4{
+    font-size: 36px;
+    
+}
+
+.quality__info p{
+    font-size: 16px;
+}
+
+.quality__info p br{
+    display: none;
+}
+
+.blob__square{
+    right: -32px;
+    bottom: 32px;
+}
+
+.steps__list h3{
+    font-size: 36px;
+}
+
+.dotted__blob{
+height: 80px;
+width: 80px;
+left: 188px;
+bottom: 79px;
+}
+
+/* Values Section */
+.values__info .text__prince{
+    font-size: 36px;
+}
+
+.values__info p{
+    font-size: 16px;
+}
+
+.values__info p br{
+    display: none;
+}
+
+.values__list{
+    flex-direction: column;
+    max-width: 20rem;
+}
+
+}
 
 
         
