@@ -1733,6 +1733,15 @@ bottom: 79px;
     max-width: 20rem;
 }
 
+/* Pricing Section */
+.plans{
+    flex-direction: column;
+    align-items: center;
+}
+
+.plan{
+    width: 100%;
+}
 }
 
 
