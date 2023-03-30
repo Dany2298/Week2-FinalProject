@@ -7,6 +7,7 @@
     <title>Week 2 - Final Project</title>
     <link rel="stylesheet" href="styles.css">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;900&amp;display=swap" rel="stylesheet">
+    <script src="index.js"></script>
 </head>
 <body>
     <section id="landing">
@@ -27,8 +28,8 @@
                 <li><a href="#">Login</a></li>
                 <li><a href="#" class="dark__navlink"> <span class="purple">Sign Up</span></a></li>
             </ul>
-            
-            <button class="nav__toggle">
+           
+            <button class="nav__toggle" onclick="openMenu()">
                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
                     stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="light___StyledMenuIcon-sc-lj69nl-15 bPlZcF">
                     <line x1="3" y1="12" x2="21" y2="12"></line>
@@ -36,6 +37,19 @@
                     <line x1="3" y1="18" x2="21" y2="18"></line>
                 </svg>
             </button>
+
+            <div class="menu__backdrop" onclick="closeMenu()">
+                <button class="nav__toggle btn__menu--close"></button>
+                <i class="fa-solid fa-xmark"></i>
+                    <ul>
+                        <li class="menu__list"><a href="#">About</a></li>
+                        <li class="menu__list"><a href="#">Blog</a></li>
+                        <li class="menu__list"><a href="#">Pricing</a></li>
+                        <li class="menu__list"><a href="#">Contact Us</a></li>
+                        <li class="menu__list"><a href="#">Login</a></li>
+                    </ul>
+                </div>
+            </div>
         </div>
     </div>
 </section>
