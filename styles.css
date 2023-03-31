@@ -1126,7 +1126,7 @@ li{
    
 
     .quality__img img{
-        max-width: 311px;
+        max-width: 311px !important;
         margin-right: 24px;
     }
     .steps__img{
@@ -1327,7 +1327,8 @@ li{
             flex-direction: column-reverse;
         }
         .quality__img{
-            width: 100%;
+            width: 100% !important;
+            margin: 0 !important;
         }
 
         .quality__info{
@@ -1417,6 +1418,8 @@ li{
 
         .values__info{
             width: 100%;
+            padding: 0;
+            margin-top: 64px;
         }
 
         .values__info h3{
@@ -1450,6 +1453,7 @@ li{
             display: flex;
             flex-direction: column;
             align-items: center;
+            margin: 32px 0 0 0;
         }
 
         .button__container{
