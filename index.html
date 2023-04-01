@@ -7,6 +7,7 @@
     <title>Week 2 - Final Project</title>
     <link rel="stylesheet" href="styles.css">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;900&amp;display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <script src="index.js"></script>
 </head>
 <body>
@@ -38,16 +39,24 @@
                 </svg>
             </button>
 
-            <div class="menu__backdrop" onclick="closeMenu()">
-                <button class="nav__toggle btn__menu--close"></button>
-                <i class="fa-solid fa-xmark"></i>
-                    <ul>
-                        <li class="menu__list"><a href="#">About</a></li>
-                        <li class="menu__list"><a href="#">Blog</a></li>
-                        <li class="menu__list"><a href="#">Pricing</a></li>
-                        <li class="menu__list"><a href="#">Contact Us</a></li>
-                        <li class="menu__list"><a href="#">Login</a></li>
-                    </ul>
+            <div class="menu__backdrop" >
+                <button class="nav__toggle btn__menu--close" onclick="closeMenu()">
+                    <i class="fa-solid fa-xmark"></i>
+                </button>
+            <ul class="menu__links">
+                <li class="menu__list"><a class="menu__link" href="#">About</a>
+                </li>
+                <li class="menu__list"><a class="menu__link" href="#">Blog</a>
+                </li>
+                <li class="menu__list"><a class="menu__link" href="#">Pricing</a>
+                </li>
+                <li class="menu__list"><a class="menu__link" href="#">Contact Us</a>
+                </li>
+                <li class="menu__list"><a class="menu__link" href="#">Login</a>
+                </li>
+                <li class="menu__list"><a class="menu__link dark__navlink" href="#">Signup</a>
+                </li>
+            </ul>
                 </div>
             </div>
         </div>
