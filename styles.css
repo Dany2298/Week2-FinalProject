@@ -1205,7 +1205,7 @@ li{
     }
 
     .main h3{
-        margin-top: 128px;
+        margin-top: 80px !important;
         font-size: 14px;
         text-align: center;
     }
@@ -1664,12 +1664,16 @@ li{
 }
 
 .main h1{
-    font-size: 30px;
+    font-size: 30px !important;
+}
+.main h1 br{
+    display: none;
 }
 
 .main{
     margin: 0 auto;
     align-items: center;
+    width: 100%;
 }
 
 .column{
@@ -1677,10 +1681,11 @@ li{
 }   
 
 .main p{
-    max-width: 543px;
+    max-width: 543px !important;
     text-align: center;
     margin: 20px 0;
     font-size: 16px;
+    width: 100%;
 }
 .main p br{
     display: none;
@@ -1692,13 +1697,13 @@ li{
 
 .main h3{
     font-size: 14px;
-    margin-top: 128px;
+    margin-top: 48px;
     letter-spacing: 0.05em;
 }
 
 .main img{
     height: 42px;
-    padding-right: 0;
+    padding-right: 0 !important;
     
 }
 
@@ -1861,7 +1866,11 @@ Testimonials Section */
             overflow-x: hidden;
         }
   .main h1 {
-      font-size: 36px;
+      font-size: 30px;
+  }
+
+  .main h1 br{
+    display: none;
   }
 
   .main p{
