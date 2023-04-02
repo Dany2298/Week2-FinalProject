@@ -1325,6 +1325,9 @@ li{
 
     .input__place{
         flex-direction: column;
+        max-width: 448px;
+        width: 100%;
+        
     }
     
 
@@ -1764,7 +1767,7 @@ li{
 }
 
 .main input{
-    max-width: 386px;
+    max-width: none;
 }
 
 .main h3{
